@@ -1,0 +1,24 @@
+<nav class="navbar navbar-dark bg-dark black-shadow">
+    <div class="container-fluid">
+        <div class="d-flex text-white name ps-3 text-uppercase"
+            (click)="hambClicked('inicio')"
+        >
+            {{title}}
+        </div>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarDropdown"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+                <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+<div class="collapse black-shadow bg-white position-absolute end-0" id="navbarDropdown">
+    <div class="d-flex flex-column text-end padding-dropdown space-letters py-3">
+        <div (click)="hambClicked('inicio')">Inicio</div><hr/>
+        <div (click)="hambClicked('tarifas')">Tarifas</div><hr/>
+        <div (click)="hambClicked('tienda')">Tienda</div><hr/>
+        <div (click)="scrollToBottom()">Contacto</div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+#navbarDropdown {
+    width: 60%;
+    z-index: 999;
+}
+
+.padding-dropdown > div {
+    padding-right: 9%;
+}
+
+.name {
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.space-letters{
+    letter-spacing: 5px;
+}
