@@ -18,12 +18,12 @@ body {
 }
 
 nav {
-    height: 10%;
+    min-height: 10%;
+    
 }
 
 main {
     min-height: 70%;
-    padding: 1.5rem;
     /* padding-bottom: 25%; */
 }
 
