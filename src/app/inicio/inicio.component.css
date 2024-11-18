@@ -8,12 +8,12 @@ div{
     font-size: 2.5em;
     font-weight: bolder;
     letter-spacing: 0.1em;
-    color: white;
+    color: rgb(199, 79, 31);
 }
 
 .boton{
     padding: 0.6rem 1.2rem;
-    color: white;
+    color: rgb(199, 79, 31);
     border-radius: 0.5rem;
     font-size: 1.25rem;
 }

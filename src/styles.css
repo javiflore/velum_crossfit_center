@@ -6,7 +6,7 @@
 }
 
 :root {
-    --color-fondo: rgb(226, 224, 220);
+    --color-fondo: #17161b
 }
 
 /* Estructure */
@@ -19,7 +19,6 @@ body {
 
 nav {
     min-height: 10%;
-    
 }
 
 main {
